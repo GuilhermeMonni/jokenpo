@@ -40,7 +40,7 @@ body{
 }
 #tituloHome01, #titulo, #tituloRedes, #tituloRegras{/*titulos das págs*/
     text-align: center;             
-    font-family: cursive;
+    font-family: 'Bebas Neue', san serif;
     font-weight: bolder;
     font-size: 2em;
     display: inline-block;
@@ -84,7 +84,7 @@ body{
 #tituloRegras02{/*titulo 02 da pág de regras*/
     margin: auto auto 2px auto;
     padding: 10px;
-    font-family: cursive;
+    font-family: 'Bebas Neue', san serif;
     color: black;
     border-radius: 20px;
     font-size: 1.5em;
@@ -95,7 +95,7 @@ body{
     width: 100px;
     height: 50px;
     border-radius: 10px;
-    font-family: cursive;
+    font-family: 'Bebas Neue', san serif;
     background-color: wheat;
 }
 #btnRedes:hover, #btnRegras:hover, #btnJogar:hover{/*botões da home*/
@@ -150,7 +150,7 @@ body{
 #ponto{/*resposta de quem pontuou*/
     margin: 20px auto auto auto;
     padding: 7px 20px 14px 20px;
-    font-family: cursive;
+    font-family: 'Bebas Neue', san serif;
     text-align: center;
     font-size: 17px;
     color: white;
@@ -161,13 +161,13 @@ body{
 #pontoJogador, #pontoComputador{/*placar*/
     margin: 10px auto;
     padding: 10px;
-    font-family: cursive;
+    font-family: 'Bebas Neue', san serif;
 }
 h3#escolhaJogo{/*escolha jogador*/
-    font-family: cursive;
+    font-family: 'Bebas Neue', san serif;
 }
 p#jogadas{/*texto das jogadas*/
-    font-family: cursive;
+    font-family: 'Bebas Neue', san serif;
     font-size: 17px;
 }
 footer{
@@ -188,7 +188,7 @@ footer{
     margin: 1px auto 20px auto;
     text-align: center;                 
     padding: 8px;
-    font-family: cursive;
+    font-family: 'Bebas Neue', san serif;
     font-size: 20px;
     color: white;
     background-color: #ed1c23e7;
