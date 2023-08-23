@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_io (2)/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styleJogo.css">
+    <script src="jogo.js"></script>
+    <title>Jokenpô</title> 
+</head>
+<body>
+    <header>
+            <span id="voltar">
+                <button id="btnVoltar" onclick="btnVoltar()"><img id="imgVoltar" src="imagens/voltar.png" alt=""></button>
+            </span> 
+    </header>
+    <main>
+        <div class="container">
+            <h3 id="escolhaJogo">Faça a sua escolha:</h3>
+               <div>
+                 <span id="botoes">
+                      <button id="bPedra" onclick="pedra()"></button>
+                      <button id="bPapel" onclick="papel()"></button>
+                      <button id="bTesoura" onclick="tesoura()"></button>
+                  </span>
+               </div>
+               <br>
+               <span id="jogadas">
+                   <p id="jogadas">Sua jogada:</p>
+                  <img id="resposta" src="imagens/fundo.png">
+                  <p id="jogadas">Jogada do computador:</p>
+                  <img id="pc" src="imagens/fundo.png" alt=" ">
+              </span>
+              <div id="ponto">
+                  Resultado da rodada
+              </div>
+              <div id="placar">
+                <span id="pontoJogador">0</span> X 
+                <span id="pontoComputador">0</span>
+              </div>
+        </div>
+    </main>
+</body>
+</html>
